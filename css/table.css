@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "poppins";
+
+}
+body{
+	background-repeat: no-repeat;
+	background-image: url("../img/bankHome.jpg");
+	background-size: cover;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+.table-striped{
+	background-color: #730180;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background:#490152;
+    transition: 1s;
+}
+
+  button:hover{
+	background-color: #1f0022;
+	
+  }
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "poppins";
+}
+
+body{
+	background-repeat: no-repeat;
+	background-image: url("../img/bankHome.jpg");
+	background-size: cover;
+}
+
+/* .intro{
+	background-image: url("../img/bankHome.jpg");
+} */
+
+h1{
+	color: white;
+	font-weight: bold;
+	transition: 0.5s;
+	text-align: center;
+}
+h3{
+	color:white;
+}
+
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background: #7a0087;
+	color: white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#7a0087;
+}
+footer{
+	color:black;
+	background-color: #7a0087;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+.im{
+	width: 70vh;
+	height: 70vh;
+}
+.action{
+	text-align: center;
+}
+
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+
+}

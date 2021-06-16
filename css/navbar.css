@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.nav-link{
+	margin-right: 15px;
+	color:#fff;
+	letter-spacing: 0.5px;
+	transition: 0.5s;
+}
+
+.navbar-brand{
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+}
+
+.h2{
+	color: #fff;
+	letter-spacing: 1 px;
+}
